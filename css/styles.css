@@ -163,7 +163,6 @@ body {
 
   .resp-txt {
     margin-bottom: -37rem;
-    margin-left: 1rem;
   }
 
    /* .gh-text {
@@ -251,7 +250,9 @@ body {
   .skill-row-last {
     padding-top: 5rem;
   }
-
+  /* #resp-text {
+    margin-right: -3rem;
+  } */
   #skills-line {
     margin-top: -4000px !important;
   }
