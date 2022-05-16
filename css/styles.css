@@ -94,7 +94,7 @@ body {
 
 .email-text {
   position: relative !important;
-  top: 0;
+  top: -5rem;
 }
 
 .email-icon {
@@ -124,9 +124,6 @@ body {
 
 
 @media (max-width: 600px) {
-  .email-ico {
-    width:30%;
-  }
   #skills-line {
     display: none !important;
   }
@@ -166,6 +163,7 @@ body {
 
   .resp-txt {
     margin-bottom: -37rem;
+    margin-left: 1rem;
   }
 
    /* .gh-text {
