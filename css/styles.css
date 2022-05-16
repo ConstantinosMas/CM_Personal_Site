@@ -1,0 +1,420 @@
+*:not(i){
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main_nav {
+  padding-right: 5%;
+}
+
+.navbar-custom {
+  background-color: #222831;
+}
+
+.navbar-brand, .nav_item_color {
+    color: white;
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+.nav-item .nav_item_color  {
+  font-size: 20px;
+}
+
+body {
+  background-color: #EEEEEE;
+  width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.custom-div {
+  max-width: 100%;
+  height: auto;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dropdown-menu {
+  background-color:#222831;
+}
+
+@media (max-width: 800px) {
+.copyright {
+  margin-top: -2rem;
+}
+.bg-gradient {
+  width:20% !important;
+  margin-left: -70rem !important;
+
+}
+
+.carousel_button1 {
+  padding-right: 5rem;
+  padding-top: 3rem;
+  top: 4rem;
+}
+
+.carousel_button2 {
+  padding-left: 5rem;
+  padding-top: 3rem;
+  top: 4rem;
+}
+
+.paint_brush {
+  padding-top: 5rem;
+}
+
+.contact-icon2 {
+  margin-top: 5rem !important;
+}
+.contact-icon3 {
+  margin-top: 5rem !important;
+}
+
+.contact-icon4 {
+  margin-top: 2rem !important;
+  margin-left: 2rem !important;
+}
+
+.email-text {
+  position: relative !important;
+  top: -5rem;
+}
+
+.email-icon {
+  display: none;
+}
+
+.bg-gradient {
+  margin-top: -40rem !important;
+}
+
+
+}
+
+
+@media (max-width: 800px) and (min-height: 800px) {
+  .paint_brush {
+    top: 3rem;
+  }
+
+}
+
+@media (min-width: 601px) {
+  .drip-sm {
+    display:none !important;
+  }
+}
+
+
+@media (max-width: 600px) {
+  #skills-line {
+    display: none !important;
+  }
+  .meteor-text {
+    padding-left: 0;
+  }
+  .js-text {
+    padding-left: 0;
+  }
+  .skills-separate {
+    margin-top: -4rem;
+    margin-bottom: 4rem;
+    display:block !important;
+  }
+  .skills-bg {
+    max-width: 1500px !important;
+    min-width: 800px !important;
+  }
+
+  .skill-row1 {
+    padding-bottom: 4rem;
+  }
+  .skill-row {
+    margin-bottom: 7rem;
+  }
+
+  .api-row {
+    padding-bottom: 2rem;
+    margin-top: -3rem;
+  }
+  .jq-txt {
+    margin-bottom: -33rem;
+  }
+  .api-txt {
+    margin-bottom: -35rem;
+  }
+
+  .resp-txt {
+    margin-bottom: -37rem;
+  }
+
+   .gh-text {
+     padding-left: 3rem;
+   }
+
+   .skills-separate-last {
+     position: relative !important;
+     top: 80px;
+   }
+   .skills-separate-first {
+     position: relative !important;
+     top:15px;
+   }
+
+   .spiral {
+     margin-left: -10rem !important;
+   }
+   .drip-sm {
+     display: block;
+     z-index:4;
+     width:70%;
+     transform: scaleY(-1);
+     margin-top: -17rem;
+     margin-left: 5rem;
+   }
+
+   .navbar-brand {
+     margin-left: 0 !important;
+   }
+
+
+}
+
+@media (max-width: 567px) {
+  .drip-sm {
+    margin-top: -10rem;
+
+  }
+
+}
+
+@media (min-width: 1000px) {
+  .meteor-text {
+    padding-left: 4rem;
+  }
+  .js-text {
+    padding-left: 7rem;
+  }
+
+.email-icon2 {
+  display: none;
+}
+.skill-row {
+  padding-top: 4rem;
+}
+}
+
+.drip {
+  z-index:4;
+  margin-top: -45rem;
+  margin-left:-70rem;
+  width:50%;
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .meteor-text {
+    padding-left: 2rem;
+  }
+  .skills-bg {
+    max-width: 1900px !important;
+    min-width: 1000px !important;
+  }
+  .meteor-row {
+    padding-top: 5rem;
+  }
+  .api-row {
+    padding-top: 5rem;
+  }
+
+  .gh-row {
+    padding-top: 5rem;
+  }
+
+  .skill-row-last {
+    padding-top: 5rem;
+  }
+  #resp-text {
+    margin-right: -3rem;
+  }
+  #skills-line {
+    margin-top: -4000px !important;
+  }
+
+  .drip {
+    margin-left: -10rem;
+    margin-top: -60rem;
+  }
+
+}
+
+.skill-icon{
+    -webkit-transition:.4s all;
+}
+
+.contact-icon{
+    -webkit-transition:.4s all;
+}
+
+
+.transition {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.skills-bg {
+  max-width: 3000px;
+  min-width: 2000px;
+  margin: -5rem 0 0 -20rem;
+}
+
+
+
+.hidden {
+  display:none;
+}
+
+
+
+
+
+
+
+
+#bg {
+  padding-top: 5rem;
+  height: 900px;
+}
+
+.layer1 {
+  margin-left: -380px;
+  margin-top: -170px;
+}
+
+.layer2 {
+  margin-left: -370px;
+}
+
+.layer3 {
+  margin-left: -420px;
+}
+
+
+
+
+.email-text {
+  position: relative;
+  margin-top: 7rem;
+}
+
+.active {
+  background-color: #181c24;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+.spiral {
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+   animation:spin 4s linear infinite;
+
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.footer-icon {
+  margin: 3rem -8rem 0 10rem;
+}
+
+@media (max-width: 440px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .cone-top {
+  margin-left: -1rem !important;
+  margin-top: -90rem !important;
+  }
+  .cone-bottom {
+  margin-top: 15rem !important;
+  margin-left: -110rem !important;
+  }
+}
+
+
+#thats-me {
+    opacity: 1.0;
+                  transition: opacity .55s ease-in-out;
+                  -moz-transition: opacity .55s ease-in-out;
+                  -webkit-transition: opacity .55s ease-in-out;
+}
+#thats-me:hover {
+    opacity: 0.5;
+                  transition: opacity .55s ease-in-out;
+                  -moz-transition: opacity .55s ease-in-out;
+                  -webkit-transition: opacity .55s ease-in-out;
+}
+
+.carousel-control-prev{
+  position: absolute;
+  margin-left: -10rem;
+}
+
+.carousel-control-next {
+  position: absolute;
+  margin-right: -10rem;
+}
+
+@media (max-width: 1130px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+@media (max-width: 993px) {
+  .aboutme-col {
+    margin-top:5rem;
+  }
+
+  .cone-top {
+  margin-left: 0 !important;
+  margin-top: -88rem !important;
+  }
+  .cone-bottom {
+    margin-left: -108rem !important;
+    margin-top: -25rem !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar-brand {
+    width:20%;
+    margin-left: 0 !important;
+  }
+  .social-icon-row {
+    margin-left: -8rem !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+  #about-me-title {
+    display: none;
+  }
+}

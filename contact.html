@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="https://kit.fontawesome.com/f15bf32ba9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+
+    <title>Contact</title>
+  </head>
+  <body id="contact-page">
+
+    <nav class="navbar navbar-expand-lg navbar-custom" style="z-index:2;">
+  <div class="container-fluid">
+    <a style="margin-left: 10rem;" class="navbar-brand" href="index.html"> <img style="width:10%;" src="images/logo.png" />ConstantinosMastrapas</a>
+    <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 main_nav">
+        <li class="nav-item">
+          <a class="nav-link nav_item_color" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nav_item_color" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About me
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item nav_item_color" href="aboutme.html">Who I am</a></li>
+            <li><a class="dropdown-item nav_item_color" href="skills.html">Skills</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active nav_item_color" aria-current="page" href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="bg" class="view" style="background-image: url('./images/ethereal.jpg'); background-repeat: no-repeat;  background-position: center center;">
+  <div class="container">
+
+
+    <div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content" style="background-color:#222831; color:white;">
+    <div class="modal-header" >
+      <div class="modal-title text-center" id="emailModalLabel"><img style="width:30% " src="images/emailme.png" /> </div>
+    </div>
+    <div class="modal-body">
+
+      <form id="contact-form" method="post" action="contactFormHandler.php">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter a valid email address" required>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Name</label>
+      <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your name" required>
+    </div>
+    <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
+  <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message here.." required></textarea>
+</div>
+    <input type="submit" class="btn btn-primary form-control submit" value="SEND MESSAGE" />
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+    <button id="email-more" type="button" class="btn btn-info" style="float:right;" data-bs-dismiss="modal">More..</button>
+  </form>
+
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+  <div class="modal fade" id="stubborn" tabindex="-1" aria-labelledby="stubbornLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content" style="background-color:#222831; color:white;">
+<div class="modal-body text-center">
+  <h5>If you do not want to use the form, you can send me an email at </h5> <h2 style="margin-left:-13px;">mastrapasconstantinos@yahoo.gr</h2>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+    <h1 style="text-align:center; margin-top:-4.1rem;">CONTACT</h1>
+
+    <ul id="scene">
+      <!-- <li class="layer" style="width:100vh; data-depth="0.00"><img src="images/sky.jpg" />
+          </li> -->
+    <li class="layer1" data-depth="0.35"><img class="fade-in hidden" src="images/sphere-eth.png" />
+          </li>
+      <li class="layer2" data-depth="0.25"><img class="fade-in hidden" src="images/sphere-eth-sm.png" />
+          </li>
+          <li class="layer3" data-depth="0.10"><img class="fade-in hidden" src="images/sphere-eth-xs.png" />
+              </li>
+          <li class="layer4" data-depth="0.15"><img style="width:250%; margin: 500px 0 0 -500px; overflow:hidden;"class="fade-in hidden" src="images/sphere-blurred.png" />
+           </li>
+           <li class="layer5" data-depth="0.15"><img style="margin: -2000px 0 0 650px;  width:170%; overflow:hidden; margin-top:-200px; z-index: -2;"class="fade-in hidden" src="images/sphere-blurred2.png" />
+            </li>
+      </ul>
+
+    <div class="container-fluid">
+
+      <div class="row" style="margin-top:-800px; position:relative;">
+        <div class="col-sm-6 text-center ">
+          <a href="https://www.linkedin.com/in/konstantinos-mastrapas-078269220/" target="_blank"><img class="contact-icon contact-icon1 hidden" style="width:60%;" src="images/linkedin.png"/></a>
+          <a href="https://www.instagram.com/costas_mas/" target="_blank"> <img class="contact-icon contact-icon2 hidden" style="width:60%; margin-top:10rem;" src="images/instagram.png"/> </a>
+        </div>
+
+        <div class="col-sm-6 col-md-6 text-center">
+        <a href="https://www.facebook.com/costas.mas.97/" target="_blank"> <img class="contact-icon contact-icon3 hidden" style="width:60%;" src="images/facebook.png"/> </a>
+        <a href="https://github.com/ConstantinosMas" target="_blank"> <img class="contact-icon contact-icon4 hidden" style="width:60%; margin-top:6rem; margin-right:3rem;" src="images/github.png"/> </a>
+        </div>
+
+      </div>
+
+          <h2 class="email-text hidden" style="text-align:center;">Not good enough? Send me an email.</h2>
+          <div class="container email-icon" style="text-align:center;">
+              <a href="#"> <img class="email-modal contact-icon5 contact-icon hidden" style="width:12%;" src="images/email.png" /> </a>
+          </div>
+
+
+          <div class="container email-icon2" style="text-align:center; position:relative; top:-5rem;">
+              <a  href="#"> <img class="email-modal contact-icon5 contact-icon hidden" style="width:12%;" src="images/email.png" /> </a>
+          </div>
+
+
+
+
+      </div>
+
+
+        </div>
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <footer>
+  <div class="view" style="background-color: #222831; width: 100%; height:6rem;  position:relative;">
+    <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12 social-icon-row" style="color:white; margin-top:-1rem;">
+      <a style="display:inline-block; color: inherit;"href="https://www.facebook.com/costas.mas.97/"><i style="--fa-beat-scale 0.1;" class="fa-brands fa-facebook-square fa-3x fa-beat footer-icon"></i> </a>
+      <a style="display:inline-block; color: inherit;"href="https://www.instagram.com/costas_mas/"><i style="--fa-beat-scale 0.1;" class="fa-brands fa-instagram fa-3x fa-beat footer-icon"></i></a>
+      <a style="display:inline-block; color: inherit;"href="https://www.linkedin.com/in/konstantinos-mastrapas-078269220/"><i style="--fa-beat-scale 0.1;" class="fa-brands fa-linkedin fa-3x fa-beat footer-icon"></i></a>
+      <a style="display:inline-block; color: inherit;"href="https://github.com/ConstantinosMas"><i style="--fa-beat-scale 0.1;" class="fa-brands fa-github fa-3x fa-beat footer-icon"></i></a>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 " style="color:white;">
+      <h2 class="copyright" style="padding:2rem 0 0 68%; font-size: 15px;">@Constantinos Mastrapas 2022</h2>
+    </div>
+
+    </div>
+  </div>
+
+  </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script type="text/javascript"
+src="magic.js">
+</script>
+
+  </body>
+</html>
