@@ -46,18 +46,8 @@ body {
 }
 
 @media (max-width: 800px) {
-
-.more-aboutme {
-  margin-top:-15rem !important;
-
-}
-
-.first-aboutme-col {
-  margin-top: -3rem;
-}
 .copyright {
-  margin-top: -4rem;
-  font-size: 12px !important;
+  margin-top: -2rem;
 }
 .bg-gradient {
   width:20% !important;
@@ -166,9 +156,9 @@ body {
     margin-bottom: -37rem;
   }
 
-   /* .gh-text {
+   .gh-text {
      padding-left: 3rem;
-   } */
+   }
 
    .skills-separate-last {
      position: relative !important;
@@ -187,7 +177,7 @@ body {
      z-index:4;
      width:70%;
      transform: scaleY(-1);
-     margin-top: -10rem;
+     margin-top: -17rem;
      margin-left: 5rem;
    }
 
@@ -404,11 +394,11 @@ body {
 
   .cone-top {
   margin-left: 0 !important;
-  margin-top: -92rem !important;
+  margin-top: -88rem !important;
   }
   .cone-bottom {
-    margin-left: -115rem !important;
-    margin-top: -45rem !important;
+    margin-left: -108rem !important;
+    margin-top: -25rem !important;
   }
 }
 
