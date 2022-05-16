@@ -47,11 +47,17 @@ body {
 
 @media (max-width: 800px) {
 
+.more-aboutme {
+  margin-top:-15rem !important;
+
+}
+
 .first-aboutme-col {
   margin-top: -3rem;
 }
 .copyright {
-  margin-top: 0;
+  margin-top: -4rem;
+  font-size: 12px !important;
 }
 .bg-gradient {
   width:20% !important;
@@ -181,7 +187,7 @@ body {
      z-index:4;
      width:70%;
      transform: scaleY(-1);
-     margin-top: -14rem;
+     margin-top: -10rem;
      margin-left: 5rem;
    }
 
