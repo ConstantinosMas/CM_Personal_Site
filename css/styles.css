@@ -94,7 +94,7 @@ body {
 
 .email-text {
   position: relative !important;
-  top: -5rem;
+  top: 0;
 }
 
 .email-icon {
@@ -124,6 +124,9 @@ body {
 
 
 @media (max-width: 600px) {
+  .email-ico {
+    width:30%;
+  }
   #skills-line {
     display: none !important;
   }
@@ -250,9 +253,7 @@ body {
   .skill-row-last {
     padding-top: 5rem;
   }
-  /* #resp-text {
-    margin-right: -3rem;
-  } */
+
   #skills-line {
     margin-top: -4000px !important;
   }
