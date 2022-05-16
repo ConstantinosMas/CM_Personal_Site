@@ -45,6 +45,9 @@ body {
 }
 
 @media (max-width: 800px) {
+  .me-gradient {
+    margin-top: 28rem !important;
+  }
 
 .more-aboutme {
   margin-top:-15rem !important;
@@ -124,6 +127,7 @@ body {
 
 
 @media (max-width: 600px) {
+
   #skills-line {
     display: none !important;
   }
