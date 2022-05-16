@@ -436,3 +436,7 @@ body{
     padding: 0px !important;
     overflow-x:hidden !important;
 }
+
+.big-heading {
+  padding-top: 3rem;
+}
