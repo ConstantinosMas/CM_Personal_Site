@@ -165,10 +165,6 @@ $(".next-btn").click(function() {
       $("#image_holder").css("background-image", "url('./images/background2.jpg')");
       $(".paint_brush").hide();
       $(".bg2").show();
-      if (window_width < 600){
-        $(".drip-sm").css("display", "block")
-      }
-
       $(".big-heading").html("Design that works");
       $(".smaller-text").html("Functional, responsive, elegant. Simple or complex. You envision it, I create it.");
       $(".home-fade").fadeIn("fast", function() {
@@ -201,13 +197,10 @@ $(".previous-btn").click(function() {
   if(current_bg < 0){
     current_bg = 2
     $(".home-fade").fadeOut("fast", function() {
-      var window_width = $(window).width();
+
       $("#image_holder").css("background-image", "url('./images/background4.jpg')");
       $(".paint_brush").hide();
       $(".bg2").hide();
-      if (window_width < 600){
-        $(".drip-sm").css("display", "block")
-      }
       $(".big-heading").html("Don't settle");
       $(".smaller-text").html("Develop it, test it, improve it, change it.");
       $(".home-fade").fadeIn("fast", function() {
@@ -231,10 +224,14 @@ $(".previous-btn").click(function() {
   }
   else{
     $(".home-fade").fadeOut("fast", function() {
+      var window_width = $(window).width();
       $("#image_holder").css("background-image", "url('./images/background2.jpg')");
       $(".bg2").show();
+      if (window_width < 600){
+        $(".drip-sm").css("display", "block");
+      }
       $(".paint_brush").hide();
-      $(".big-heading").html("Desing that works");
+      $(".big-heading").html("Design that works");
       $(".smaller-text").html("Functional, responsive, elegant. Simple or complex. You envision it, I create it.");
       $(".home-fade").fadeIn("fast", function() {
         $(".home-fade").show();
