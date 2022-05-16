@@ -165,6 +165,9 @@ $(".next-btn").click(function() {
       $("#image_holder").css("background-image", "url('./images/background2.jpg')");
       $(".paint_brush").hide();
       $(".bg2").show();
+      if (window_width < 600){
+        $(".drip-sm").css("display", "block");
+      }
       $(".big-heading").html("Design that works");
       $(".smaller-text").html("Functional, responsive, elegant. Simple or complex. You envision it, I create it.");
       $(".home-fade").fadeIn("fast", function() {
