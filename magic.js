@@ -28,6 +28,14 @@ $(window).on('resize', function(){
   else {
     $(".fa-brands").addClass('fa-3x');
   }
+  if (window_width < 600) {
+    $(".logo-name").addClass('hidden');
+    $(".logo-img").css("width", "75%")
+  }
+  else {
+    $(".logo-name").removeClass('hidden');
+    $(".logo-img").css("width", "10%")
+  }
 });
 
 
@@ -41,6 +49,14 @@ var window_width = $(window).width();
 
   if (window_width < 900) {
     $(".fa-brands").removeClass('fa-3x');
+  }
+  if (window_width < 600) {
+    $(".logo-name").addClass('hidden');
+    $(".logo-img").css("width", "75%")
+  }
+  else {
+    $(".logo-name").removeClass('hidden');
+    $(".logo-img").css("width", "10%")
   }
 
 
@@ -153,7 +169,7 @@ $(".next-btn").click(function() {
         $(".drip-sm").css("display", "block")
       }
 
-      $(".big-heading").html("Desing that works");
+      $(".big-heading").html("Design that works");
       $(".smaller-text").html("Functional, responsive, elegant. Simple or complex. You envision it, I create it.");
       $(".home-fade").fadeIn("fast", function() {
         $(".home-fade").show();
