@@ -280,6 +280,10 @@ $(".previous-btn").hover(function(){
 }
 );
 
+$(".dismiss-ad").click(function(){
+  $(".new_page_ad").addClass("hidden");
+});
+
 
 
 
